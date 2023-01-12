@@ -1,0 +1,63 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	/*
+	int one;
+	cin >> one;
+	if (one > 0) {
+		cout << "All good";
+	}else cout << "not good";
+	
+
+	int dog = 33, cat = 12;
+	if (dog > 0 && dog < 30) {
+		cout << "dog age is ok" << endl;
+	}else cout << "dog is dead" << endl;
+
+	if (cat > 0 && cat < 20) {
+		cout << "cat age is ok" << endl;
+	}else cout << "cat is dead" << endl;
+	
+
+	int grade = -5;
+	int age = -15;
+	int height = -180;
+	if (grade > 0 && grade < 11) {
+		cout << "grade is ok" << endl;
+	}else cout << "grade is wrong" << endl;
+	if (age > 0 && age < 150) {
+		cout << "age is ok" << endl;
+	}else cout << "age is wrong" << endl;
+	if (height > 0 && height < 300) {
+		cout << "height is ok" << endl;
+	}else cout << "height is wrong" << endl;
+	
+
+	int age = 15;
+	string parole = "12345";
+	string parole_cilveks;
+	cin >> parole_cilveks;
+
+	if (parole_cilveks == parole) {
+		cout << "You are in" << endl << age;
+	}
+	else cout << "You are blocked forever";
+	*/
+	string username = "slava";
+	string parole = "123";
+	string username_cilveks, parole_cilveks;
+
+	cout << "--------------------" << endl;
+	cout << "Login:  ";
+	cin >> username_cilveks;
+	cout << "Password:  ";
+	cin >> parole_cilveks;
+	cout << "--------------------" << endl;
+
+	if (username == username_cilveks && parole == parole_cilveks) {
+		cout << "You are in";
+	}else cout << "Wrong input" << endl;
+
+	return 0;
+}	
