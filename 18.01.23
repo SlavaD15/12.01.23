@@ -1,0 +1,75 @@
+#include <iostream>
+using namespace std;
+bool isNumber(string s)
+{
+	for (int i = 0; i < s.length(); i++)
+		if (isdigit(s[i]) == false)
+			return false;
+
+
+	return true;
+}
+
+int main() {
+	//int i = 0;
+	//string name = "slava", uin;
+
+	/*
+	do {
+		cin >> uin;
+		if (uin == "slava") {
+			exit(0);
+		}
+		i++;
+	} while (i < 5);
+	
+	for (int i = 0; i < 5; i++) {
+		cin >> uin;
+		if (uin == "slava") {
+			exit(0);
+		}
+	}
+	cout << "out of attempts";
+	
+
+	for (int i = 1; i <= 20; i++) {
+		cout << i << "  " << i*i << endl;
+	}
+	
+	string myname;
+	
+	
+	do {
+		cout << "Enter my name" << endl;
+		cin >> myname;
+		if (myname == "no") {
+			cout << "yes" << endl;
+		}
+		else if (myname == "Dembovskis" || myname == "dembovskis") {
+			cout << "That is ont my name, but ok" << endl;
+			exit(0);
+		}
+		else if (isNumber(myname)) {
+			cout << "That is a number" << endl;
+		}
+	} while (myname != "slava" );
+	*/
+
+	string name = "slava", uin;
+	string correct_password = "12345", password;
+
+
+	for (int i = 0; i <= 3; i++) {
+		cout << "Enter my name: ";
+		cin >> uin;
+
+		cout << "Enter a password: ";
+		cin >> password;
+		if (isNumber(password) && uin == "slava" && password == correct_password) {
+			break;
+		}
+	}
+	if (password == correct_password || uin == name)
+		cout << "Youre in!";
+	return 0;
+}
