@@ -1,0 +1,66 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	/*
+	for (int i = 1; i <= 100; i++) {
+		cout << i << "   " << i * i << endl;
+	}
+	
+	int i;
+	cin >> i;
+	
+	if (i >= 0 && i <= 20) {
+		cout << "That's right" << endl;
+	}
+	else {
+		cout << "That's not right" << endl;
+	}
+	
+	if (i > 100 || i < 30) {
+		cout << "That's right" << endl;
+	}
+	else {
+		cout << "That's not right" << endl;
+	}
+	
+
+	for (int i = 0; i <= 20; i++) {
+		cout << i << ". " << "Slava" << endl;
+	}
+	cout << endl;
+	cout << "I am done";
+
+	for (int i = 10; i >= 1; i--) {
+		cout << i << ", ";
+	}
+	
+	int i = 0;
+	string parole = "123";
+	string name = "slava";
+	string parole1, name1;
+
+	for (int i = 0; i <= 2; i++) {
+		if (i == 2) {
+			cout << "Sorry youre out";
+			break;
+		}
+		cout << "Ievadiet vardu: ";
+		cin >> name1;
+		cout << "Ievadiet paroli: ";
+		cin >> parole1;
+		if (name1 == name && parole == parole) {
+			cout << "well done";
+		}
+		else {
+			cout << "Sorry youre out";
+		}
+	}
+	
+	*/
+
+	string name1, name2, name3, name4, name5, name6, name7, name8, name9, name10;
+	cin >> name1; cin >> name2; cin >> name3; cin >> name4; cin >> name5; cin >> name6; cin >> name7; cin >> name8; cin >> name9; cin >> name10;
+	cout << name1; cout << name2; cout << name3; cout << name4; cout << name5; cout << name6; cout << name7; cout << name8; cout << name9; cout << name10;
+	return 0;
+}
