@@ -1,0 +1,92 @@
+#include <iostream> 
+using namespace std;
+int main() { 
+	/*
+	int a = 1;
+	do {
+		int b = 1;
+		do {
+			cout << a << "\n";
+			b++;
+		} while (b<=5);
+		a++;
+	} while (a<=3);
+	
+
+	int x = 30;
+	switch (x) {
+	case 10:
+		cout << "X is 10, but you are genious";
+		break;
+	case 20:
+		cout << "X is 20";
+		break;
+	case 30:
+		cout << "X is 30, just do not go higher";
+		break;
+	default:
+		cout << "X is not 10, 20 or 30";
+		break;
+	}
+
+	
+
+	int a = -5;
+	int b = 10;
+
+	cout << "Minimalais skaitlis: " << a << endl;
+	cout << "Maksimalais skaitlis: " << b << endl;
+
+	if (a >= 0) {
+		cout << "a nav negatīvs" << endl ;
+	}
+	else {
+		cout << "a ir positīvs" << endl;
+	}
+	if (b >= 0) {
+		cout << "b nav negatīvs" << endl;
+	}
+	else {
+		cout << "b ir positīvs" << endl;
+	}
+
+
+
+	if (a % 2 == 0) {
+		cout << "a ir pāra skaitlis" << endl;
+	}
+	else{
+		cout << "a ir nepāra skaitlis" << endl;
+	}
+	if (b % 2 == 0) {
+		cout << "b ir pāra skaitlis" << endl;
+	}
+	else{
+		cout << "b ir nepāra skaitlis" << endl;
+	}
+	*/
+
+	int a = 79;
+
+	if (a >= 90) {
+		cout << "Grade A" << endl;
+	}
+	else if (a >= 80 && a < 90) {
+		cout << "Grade B" << endl;
+	}
+	else if (a >= 70 && a < 80) {
+		cout << "Grade C" << endl;
+	}
+	else if (a >= 60 && a < 70) {
+		cout << "Grade D" << endl;
+	}
+	else if (a >= 40 && a < 60) {
+		cout << "Grade E" << endl;
+	}
+	else if (a < 40) {
+		cout << "Grade F" << endl;
+	}
+
+
+	return 0;
+} 
