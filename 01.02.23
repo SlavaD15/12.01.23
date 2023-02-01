@@ -1,0 +1,175 @@
+#include <iostream>
+using namespace std;
+
+void checkIfOdd(int num) {
+	if (num % 2 == 0) {
+		cout << "number is even";
+	}
+	else {
+		cout << "number is odd";
+	}
+}
+
+void getNumber(int num) {
+	cout << "enter a number" << endl;
+	cin >> num;
+	checkIfOdd(num);
+}
+
+
+
+int main() {
+	/*
+	int a = -5;
+	int b = 10;
+
+	if (a > b){
+	cout << "Minimalais skaitlis: " << a << endl;
+	}else if(b > a){
+	cout << "Maksimalais skaitlis: " << b << endl;
+	}
+
+	if (a >= 0) {
+		cout << "a nav negatīvs" << endl;
+	}
+	else {
+		cout << "a ir positīvs" << endl;
+	}
+	if (b >= 0) {
+		cout << "b nav negatīvs" << endl;
+	}
+	else {
+		cout << "b ir positīvs" << endl;
+	}
+
+
+
+	if (a % 2 == 0) {
+		cout << "a ir pāra skaitlis" << endl;
+	}
+	else {
+		cout << "a ir nepāra skaitlis" << endl;
+	}
+	if (b % 2 == 0) {
+		cout << "b ir pāra skaitlis" << endl;
+	}
+	else {
+		cout << "b ir nepāra skaitlis" << endl;
+	}
+	
+
+	int a = 90;
+
+	if (a >= 90) {
+		cout << "Grade A" << endl;
+	}
+	else if (a >= 80 && a < 90) {
+		cout << "Grade B" << endl;
+	}
+	else if (a >= 70 && a < 80) {
+		cout << "Grade C" << endl;
+	}
+	else if (a >= 60 && a < 70) {
+		cout << "Grade D" << endl;
+	}
+	else if (a >= 40 && a < 60) {
+		cout << "Grade E" << endl;
+	}
+	else if (a < 40) {
+		cout << "Grade F" << endl;
+	}
+	
+	int a;
+	int b;
+
+	cin >> a;
+	cin >> b;
+
+	switch (a) {
+	case 1:
+		cout << "Pirmdiena" << endl;
+		break;
+	case 2:
+		cout << "Otrdiena" << endl;
+		break;
+	case 3:
+		cout << "Trešdiena" << endl;
+		break;
+	case 4:
+		cout << "Ceturtdiena" << endl;
+		break;
+	case 5:
+		cout << "Piekdiena" << endl;
+		break;
+	case 6:
+		cout << "Sestdiena" << endl;
+		break;
+	case 7:
+		cout << "Svētdiena" << endl;
+		break;
+	default:
+		cout << "There is no such week day" << endl;
+		break;
+	}
+
+	switch (b) {
+	case 1:
+		cout << "January" << endl;
+		break;
+	case 2:
+		cout << "February" << endl;
+		break;
+	case 3:
+		cout << "March" << endl;
+		break;
+	case 4:
+		cout << "April" << endl;
+		break;
+	case 5:
+		cout << "May" << endl;
+		break;
+	case 6:
+		cout << "June" << endl;
+		break;
+	case 7:
+		cout << "July" << endl;
+		break;
+	case 8:
+		cout << "August" << endl;
+		break;
+	case 9:
+		cout << "September" << endl;
+		break;
+	case 10:
+		cout << "October" << endl;
+		break;
+	case 11:
+		cout << "November" << endl;
+		break;
+	case 12:
+		cout << "December" << endl;
+		break;
+	default:
+		cout << "There is no such month" << endl;
+		break;
+	}
+	
+	int first, second, third;
+	cin >> first;
+	cin >> second;
+	cin >> third;
+
+	if (first == second && second == first && second == third) {
+		cout << "trijstris ir regulārs" << endl;
+	}else if(first == second || first == third || second == third) {
+		cout << "trijstrūris ir vienādsānu" << endl;
+	}
+	*/
+
+	getNumber(1);
+
+
+	
+	
+	return 0;
+}
