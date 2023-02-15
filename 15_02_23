@@ -1,0 +1,137 @@
+using namespace std;
+#include <iostream>
+
+int main() {
+	/*
+	string data;
+	do {
+		cin >> data;
+		cout << data << endl;
+	} while (data != "stop");
+	
+
+	string parole;
+	int i = 5;
+	do {
+		cin >> parole;
+		i--;
+		if (i == 0) {
+			cout << "You are out of attemps";
+			break;
+		}
+	} while (parole != "123");
+	
+
+	int i = 1005;
+
+	do {
+		i = i - 5;
+		cout << i << endl;
+	} while (i != 0);
+	
+
+	int i = 0;
+	do {
+		i++;
+		cout << 3*i << endl;
+	} while (i != 125);
+	
+
+	int i = 21;
+	do {
+		i--;
+		cout << i * i * i << endl;
+	} while (i != 1);
+	
+
+	int i = 0;
+	do {
+		i++;
+		cout << "1/" << i << endl;
+	} while (i != 1000);
+	
+
+	string i = "1";
+	cout << i << endl;
+	do {
+		i = i + "1";
+		cout << i << endl;
+	} while (i != "11111111111111111111");
+	
+
+	int temp;
+	cin >> temp;
+
+	if (temp == 0) {
+		cout << "temp - neitral" << endl;
+	}
+	else if (temp < 0) {
+		cout << "temp - negativ" << endl;
+	}
+	else if (temp > 0) {
+		cout << "temp - pozitiv" << endl;
+	}
+	
+
+	int hours;
+	cin >> hours;
+	if (hours <= 12 && hours >= 0) {
+		cout << hours << "AM" << endl;
+	}
+	else {
+		switch (hours) {
+		case 13:
+			cout << 1 << "PM" << endl; break;
+		case 14:
+			cout << 2 << "PM" << endl; break;
+		case 15:
+			cout << 3 << "PM" << endl; break;
+		case 16:
+			cout << 4 << "PM" << endl; break;
+		case 17:
+			cout << 5 << "PM" << endl; break;
+		case 18:
+			cout << 6 << "PM" << endl; break;
+		case 19:
+			cout << 7 << "PM" << endl; break;
+		case 20:
+			cout << 8 << "PM" << endl; break;
+		case 21:
+			cout << 9 << "PM" << endl; break;
+		case 22:
+			cout << 10 << "PM" << endl; break;
+		case 23:
+			cout << 11 << "PM" << endl; break;
+		case 24:
+			cout << 12 << "PM" << endl; break;
+		}
+	}
+	*/
+	int first = 1;
+	int second = 5;
+	int third = 1;
+
+	if (first == second || first == third || second == third) {
+		cout << "there are equal numbers" << endl;
+	}
+	if (first > second && first > third) {
+		cout << first << "-maksimalais" << endl;
+	}
+	else if (second > first && second > third) {
+		cout << second << "-maksimalais" << endl;
+	}
+	else if (third > first && third > second) {
+		cout << third << "-maksimalais" << endl;
+	}
+	if (first < second && first < third) {
+		cout << first << "-minimalais" << endl;
+	}
+	else if (second < first && second < third) {
+		cout << second << "-minimalais" << endl;
+	}
+	else if (third < first && third < second) {
+		cout << third << "-minimalais" << endl;
+	}
+
+	return 0;
+}
