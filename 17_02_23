@@ -1,0 +1,91 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+	/*
+	vector <int> num {1, 2, 3, 1, 2, 4};
+	for (int i = 0; i < num.size(); i++) {
+		if (num[i] == 1) {
+			cout << "There is 1 in vector" << endl;
+		}
+		if (num[i] == 4) {
+			cout << "There is 4 in vector" << endl;
+		}
+	}
+	
+	vector <string> country{"USA", "UK", "China", "India", "Canada", "Australia"};
+	vector <string> code{"+1", "+44", "+86", "+91", "+1", "+61"};
+	string user;
+	int user_number;
+	int a = 0;
+
+	cin >> user;
+	cin >> user_number;
+	for (int i = 0; i < code.size(); i++) {
+		if (user == code[i]) {
+			cout << country[i] << endl;
+			a++;
+		}
+	}
+	if (a == 0) {
+		cout << "nav number" << endl;
+	}else{
+		cout << user << user_number;	
+	}
+	
+
+	vector <int> num{ 3, 8, 7, 4 };
+	vector <string> name{"Anna", "Antons", "Vlads", "Artemijs"};
+	int user_num;
+	cin >> user_num;
+	int a = 0;
+
+	for (int i = 0; i < num.size(); i++) {
+		if (user_num == num[i]) {
+			cout << name[i] << endl;
+			a++;
+		}
+	}
+	if (a == 0) {
+		cout << "nooooooooooooooooo";
+	}
+	
+
+	vector <int> num;
+	int a = 0;
+
+	for (int i = 2; i < 10;i++) {
+		for (int j = 1; j < 10; j++) {
+			if (j <= i) {
+				if (i % j == 0) {
+					a++;
+				}
+			}
+		}
+		if (a == 1 || a == 2) {
+			num.push_back(i);
+		}
+		a = 0;
+	}
+	
+	for (int u = 0; u < num.size(); u++) {
+		cout << num[u];
+	}
+	*/
+	vector <string> holiday{ "holiday1", "holiday2", "holiday3", "holiday4", "holiday5" };
+	vector <string> date{ "15.09", "05.10", "07.11", "25.09", "18.10" };
+	string choice;
+
+	cout << "Do you want to see holidays in Autumn: ";
+	cin >> choice;
+
+	if (choice == "y") {
+		for (int i = 0; i < holiday.size(); i++) {
+			cout << holiday[i] << " " << date[i] << endl;
+		}
+	}
+
+
+	return 0;
+}
