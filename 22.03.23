@@ -1,0 +1,130 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+	/*
+	vector <int> a {1,2,5,6,7,3,1,2 };
+	for (int i = 0; i < a.size(); i++) {
+		if (a[i] == 3) {
+			cout << "There is 3" << endl;
+		}
+		if (a[i] == 5) {
+			cout << "There is 5" << endl;
+		}
+	}
+
+	a.pop_back();
+	a.at(4) = 5;
+	a.push_back(3);
+
+	for (int i = 0; i < a.size(); i++) {
+		cout << a[i] << " ";
+	}
+	
+	vector <string> a{"galds", "kresls", "lampa", "dators", "durvis"};
+	for (int i = 0; i < a.size(); i++) {
+		if (a[i] == "dators") {
+			cout << "There is dators" << endl;
+		}
+		if (a[i] == "skapis") {
+			cout << "There is skapis" << endl;
+		}
+	}
+
+	a.pop_back();
+	a.at(3) = "laptops";
+	a.push_back("logs");
+
+	for (int i = 0; i < a.size(); i++) {
+		cout << a[i] << " ";
+	}
+	
+	vector <string> countries{ "USA", "UK", "China", "India", "Canada", "Australia"};
+	vector <string> codes{"+1", "+44", "+86", "+91", "+1", "+61"};
+
+	string input;
+	int a = 0;
+	cin >> input;
+	for (int i = 0; i < countries.size(); i++) {
+		if (countries[i] == input) {
+			cout << codes[i] << endl;
+			a++;
+		}
+	}
+	if (a == 0) {
+		cout << "There is no such country" << endl;
+	}
+	
+	string input_code;
+	int b = 0;
+	cin >> input_code;
+	for (int j = 0; j < countries.size(); j++) {
+		if (codes[j] == input_code) {
+			cout << countries[j] << endl;
+			b++;
+		}
+	}
+	if (b == 0) {
+		cout << "There is no such code" << endl;
+	}
+
+	for (int n = 0; n < countries.size(); n++) {
+		cout << countries[n] << " ";
+	}
+	cout << endl;
+	for (int y = 0; y < codes.size(); y++) {
+		cout << codes[y] << " ";
+	}
+	cout << endl;
+	countries.at(1) = "Igaunija";
+	codes.at(1) = "+372";
+
+	countries.pop_back();
+	codes.pop_back();
+
+	countries.push_back("Latvija");
+	codes.push_back("+371");
+
+	for (int n = 0; n < countries.size(); n++) {
+		cout << countries[n] << " ";
+	}
+	cout << endl;
+	for (int y = 0; y < codes.size(); y++) {
+		cout << codes[y] << " ";
+	}
+	*/
+	vector <int> num{ 3,8,7,4 };
+	vector <string> vardi{ "Anna", "Antons", "Vlads", "Artemijs" };
+
+	string input;
+	int a = 0;
+	cin >> input;
+	for (int i = 0; i < vardi.size(); i++) {
+		if (vardi[i] == input) {
+			cout << num[i] << endl;
+			a++;
+		}
+	}
+	if (a == 0) {
+		cout << "There is no such name" << endl;
+	}
+
+	vardi.pop_back();
+	num.pop_back();
+
+	vardi.at(0) = "Antons";
+
+	vardi.push_back("Alla");
+	num.push_back(6);
+
+	for (int n = 0; n < vardi.size(); n++) {
+		cout << vardi[n] << " ";
+	}
+	cout << endl;
+	for (int y = 0; y < num.size(); y++) {
+		cout << num[y] << " ";
+	}
+
+	return 0;
+}
